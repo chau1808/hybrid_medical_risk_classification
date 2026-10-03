@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ## 5. Cấu hình `.env`
 
-Tạo file `.env` từ `.env.example`:
+Tạo file `.env`:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key
@@ -204,5 +204,3 @@ docker exec medical_postgres psql -U postgres -d medical_risk -c "SELECT patient
 ## 10. Lưu ý
 
 Dataset và Patient Notes trong project phục vụ mục đích nghiên cứu và thử nghiệm.
-
-Kết quả mô hình không được sử dụng như chẩn đoán y khoa thực tế.
